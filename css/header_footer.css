@@ -484,7 +484,7 @@ div#search-pc fieldset > legend {
     line-height: 0;
     visibility: hidden;
 }
-div#search-pc input#keywords {
+div#search-pc input#keywords2 {
     flex: 1;
     width: 100%;
     height: 54px;
@@ -494,7 +494,7 @@ div#search-pc input#keywords {
     border: 0;
     background: #fff;
 }
-div#search-pc input#keywords:focus {
+div#search-pc input#keywords2:focus {
     outline: none;
     border: 0;
 }
