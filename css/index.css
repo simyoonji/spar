@@ -44,11 +44,11 @@
     left: 50%;
     top: 10%;
     transform: translateX(-50%);
-    text-transform: uppercase;
+    color: black;
     font-size: 64px;
     font-weight: bold;
-    color: black;
     text-align: center;
+    text-transform: uppercase;
 }
 .textarea-m {
     width: 100%;
@@ -96,25 +96,25 @@ p.txt-w {
     box-sizing: border-box;
 }
 #section1 .cont > div > h3 {
-    font-size: 48px;
     line-height: 60px;
-    font-weight: 700;
     color: #2b2b2a;
+    font-size: 48px;
+    font-weight: 700;
     text-align: left;
     text-transform: uppercase;
 }
 #section1 .cont > div > span {
+    line-height: 26px;
+    vertical-align: sub;
     color: #040404;
     font-size: 18px;
-    vertical-align: sub;
-    line-height: 26px;
 }
 #section1 .banner {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
     width: 100%;
     height: auto;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: nowrap;
     opacity: 0;
 }
 #section1 .banner > div{
@@ -155,17 +155,17 @@ p.txt-w {
     position: absolute;
     right: 5%;
     bottom: 5%;
+    line-height: 60px;
     width: 170px;
     height: 60px;
-    line-height: 60px;
+    border: none;
+    border-radius: 50px;
     color: #040404;
-    background: #fff;
-    text-align: center;
     font-size: 16px;
     font-weight: 700;
-    border-radius: 50px;
+    text-align: center;
+    background: #fff;
     transition: all .3s ease-in-out;
-    border: none;
     cursor: pointer;
 }
 #section1 button > i {
@@ -179,19 +179,19 @@ p.txt-w {
 /*section2-----------------------------------------------------------*/
 
 #section2 {
+    vertical-align: middle;
     width: 100%;
     height: 960px;
-    vertical-align: middle;
     opacity: 0;
 }
 #section2 > div {
     position: relative;
     width: 100%;
     height: 100%;
+    margin-bottom: 0px;
     background: url(../image/index/section2.jpg)center  no-repeat;
     background-size: cover;
     background-position: center;
-    margin-bottom: 0px;
 }
 #section2 .cont2 {
     position: absolute;
@@ -204,8 +204,8 @@ p.txt-w {
     display: none;
 }
 #section2 .cont2 h3 {
-    font-size: 18px;
     margin: 0 0 15px;
+    font-size: 18px;
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -217,16 +217,16 @@ p.txt-w {
     margin-top: 30px;
 }
 #section2 .cont2 > div > a {
+    border-bottom: 2px solid #fff;
+    color: #fff !important;
     font-size: 16px;
     font-weight: 600;
-    color: #fff !important;
-    border-bottom: 2px solid #fff;
 }
 /*section3-----------------------------------------------------------*/
 #section3 {
+    vertical-align: middle;
     width: 100%;
     height: 970px;
-    vertical-align: middle;
     opacity: 0;
 }
 #section3 > div {
@@ -251,32 +251,32 @@ p.txt-w {
     text-transform: uppercase;
 }
 #section3 .cont3 strong {
+    line-height: 1.4;
     margin-bottom: 15px;
+    color: #010101;
     font-size: 50px;
     font-weight: 800;
-    line-height: 1.4;
-    color: #010101;
 }
 #section3 .cont3 p{
     line-height: 1.6;
+    margin: 20px 0;
+    color: #212121;
     font-size: 18px;
     font-weight: 400;
-    color: #212121;
-    margin: 20px 0;
 }
 #section3 .cont3 > div {
     line-height: 1.6;
-    font-size: 18px;
-    font-weight: 400;
     margin: 30px 0;
     color: #212121;
+    font-size: 18px;
+    font-weight: 400;
 }
 #section3 .cont3 > div > a {
     line-height: 2;
+    border-bottom: 2px solid #000;
+    color: #010101;
     font-size: 16px;
     font-weight: 600;
-    color: #010101;
-    border-bottom: 2px solid #000;
 }
 /*section4-----------------------------------------------------------*/
 #section4 {
@@ -288,26 +288,26 @@ p.txt-w {
 }
 #section4 .cont4 {
     margin-bottom: 40px;
-    text-transform: uppercase;
+    color: #2b2b2a;
     font-size: 48px;
     font-weight: 800;
-    color: #2b2b2a;
+    text-transform: uppercase;
     opacity: 0;
 }
 #section4 ul {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
     width: 100%;
     height: 260px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: nowrap;
     opacity: 0;
 }
 #section4 ul > li {
     width: 23.9%;
-    text-align: center;
     padding: 50px 0;
-    background-color: #f6f6f6;
     border-radius: 50px;
+    background-color: #f6f6f6;
+    text-align: center;
     cursor: pointer;
 }
 #section4 ul > li > img {
@@ -321,9 +321,9 @@ p.txt-w {
     padding-right: 15px;
 }
 #section4 ul > li > div > a {
+    color: #000;
     font-size: 18px;
     font-weight: bold;
-    color: #000;
 }
 @keyframes slideUp {
     from {

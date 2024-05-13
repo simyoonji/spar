@@ -1,13 +1,10 @@
 /*------------------------------PC버전--------------------------*/
-
 @media screen and (max-width:1920px){
     html,body{width: 100%;}
 }
-
 @media screen and (max-width:1400px){
     
 }
-
 /*------------------------------테블릿 버전--------------------------*/
 
 @media screen and (max-width:1200px){ 
@@ -24,8 +21,8 @@
     }
     /*logo*/
     #header nav > .logo {
-        position: absolute;
         display: inline-block;
+        position: absolute;
         left: 50%;
         transform: translateX(-50%);
         padding: 0px 0;
@@ -143,8 +140,8 @@
         margin-top: 0px;
     }
     #section1 .cont > div > h3 {
-        font-size: 24px;
         line-height: 28px;
+        font-size: 24px;
         font-weight: 600;
     }
     #section1 .cont > div > span {
@@ -179,9 +176,9 @@
         display: block;
     }
     #section1 button {
+        line-height: 40px;
         width: 120px;
         height: 40px;
-        line-height: 40px;
         font-size: 14px;
     }
     /*section2*/
@@ -189,9 +186,9 @@
         height: 80vh;
     }
     #section2 > div {
+        margin-bottom: 0px;
         background: url(../image/index/section2-m.jpg)center  no-repeat;
         background-size: cover;
-        margin-bottom: 0px;
     }
     #section2 .cont2 {
         left: 2%;
@@ -203,9 +200,9 @@
         font-size: 16px;
     }
     #section2 .cont2 strong {
+        line-height: 40px;
         font-size: 30px;
         font-weight: 700;
-        line-height: 40px;
     }
     #section2 .cont2 > div > a {
         font-size: 15px;
@@ -227,17 +224,17 @@
         font-size: 16px;
     }
     #section3 .cont3 strong {
+        line-height: 40px;
         margin-bottom: 15px;
         font-size: 30px;
         font-weight: 700;
-        line-height: 40px;
     }
     #section3 .cont3 p{
-        font-size: 16px;
         margin: 20px 0;
+        font-size: 16px;
     }
     #section3 .cont3 p br{
-    display: none;
+        display: none;
     }     
     /*section4*/
     #section4 {
@@ -290,8 +287,8 @@
     }
     #footer .ft-lf-info > span::after,
     #footer .ft-rt-info > span::after {
-    display: none;
-    content: "";
+        display: none;
+        content: "";
     }
     #footer .ft-rt strong {
         margin: 20px 0 15px 0;
@@ -302,16 +299,16 @@
     }
     #footer .ft-rt-icon > div {
         display: inline-block;
+        vertical-align: middle;
         margin-top: 0px;
         margin-bottom: 30px;
         font-size: 14px; 
-        vertical-align: middle;
     }
     #footer .ft-rt-icon > ul {
         display: flex;
-        text-align: left;
-        margin-left: 0px;
         width: 100%;
+        margin-left: 0px;
+        text-align: left;
     }
     #footer .ft-rt-icon > ul li {
         display: inline-block;
@@ -332,17 +329,8 @@
         display: none;
     }
 }
-@media screen and (max-width:980px){
-    
-}
-
 
 /*------------------------------모바일 버전--------------------------*/
-
-@media screen and (max-width:768px){
-   
-}
-
 
 @media screen and (max-width:600px){ 
     /*section1*/
@@ -374,14 +362,4 @@
     #footer .footer-inner {
         padding: 20px 0 60px 0;
     }
-}
-
-
-@media screen and (max-width:480px){
-   
-}
-
-
-@media screen and (max-width:360px){
-   
 }
